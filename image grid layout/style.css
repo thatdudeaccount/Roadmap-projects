@@ -1,0 +1,39 @@
+#grid{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#flexbox{
+    height: 720px;
+    width: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-top: 1rem;
+
+}
+.container{
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    gap: 5px;
+}
+
+.item1{
+    grid-row: span 2;
+    height: auto;
+}
+
+.item3{
+    grid-row: span 2;
+    height: auto;
+}
+
+.item4{
+    grid-row: span 2;
+    height: auto;
+}

@@ -6,4 +6,6 @@ This repository contians all the projects which I have done in roadmap.sh websit
 
 ## 🔗 Link
 
-https://roadmap.sh/frontend/projects
+https://roadmap.sh/projects/single-page-cv
+
+https://roadmap.sh/projects/image-grid
