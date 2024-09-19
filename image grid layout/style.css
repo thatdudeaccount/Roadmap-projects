@@ -37,3 +37,12 @@
     grid-row: span 2;
     height: auto;
 }
+
+div img:hover  {
+      object-fit:cover;
+      position: relative;
+      filter: brightness(100%);
+      transform: scale(1.5);
+      z-index: 1;
+      box-shadow: 0 0 900px 900px rgba(15, 15, 15, 0.926);
+  }
